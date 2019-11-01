@@ -16,19 +16,4 @@
 <body>
   <main-page category=''></main-page>
 </body>
-<script type="module">
-  import {
-      LitElement,
-      html,
-      css
-    } from "https://unpkg.com/@polymer/lit-element@0.7.1/lit-element.js?module";
-    window.LitElement = LitElement;
-    window.html = html;
-    window.css = css;
-    const script = document.createElement("script");
-    script.type = "module";
-    script.src = "index.js";
-    document.body.append(script);
-  </script>
-
-</html>
+<script src="dist/bundle.js"></script>
