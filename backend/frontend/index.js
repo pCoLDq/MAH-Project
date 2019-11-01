@@ -1,4 +1,5 @@
-import './components/article-card.js'
+import { LitElement, html } from 'lit-element'
+import './components/article-card'
 
 var articles = {
   'full': [{

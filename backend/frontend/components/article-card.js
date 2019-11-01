@@ -1,3 +1,5 @@
+import { LitElement, html } from 'lit-element'
+
 customElements.define(
     "article-card",
     class extends LitElement {
