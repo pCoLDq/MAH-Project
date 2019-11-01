@@ -1,0 +1,123 @@
+.card .link {
+    text-decoration: none;
+    color: black;
+}
+
+.card .preview {
+    width: 270px;
+    height: 145px;
+    border: 1px solid;
+    transition: all 325ms cubic-bezier(0.4, 0.25, 0.3, 1);
+}
+
+.card .preview:hover {
+    filter: brightness(88%);
+}
+
+.card .title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 9px;
+    padding: 6px;
+}
+
+.card .category {
+    color: #9B9B9B;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 1px;
+}
+
+.card .category::before {
+    background-color: #59a66b;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: .3em;
+}
+
+.card .article-about {
+    width: 270px;
+    height: 110px;
+}
+
+/*##########################*/
+
+.card-full .preview-full {
+    margin-top: 40px;
+    width: 570px;
+    height: 351px;
+    border: 1px solid;
+    transition: all 325ms cubic-bezier(0.4, 0.25, 0.3, 1);
+}
+
+.card-full .preview-full:hover {
+    filter: brightness(80%);
+}
+
+.card-full .card-full {
+    margin-top: 40px;
+}
+
+.card-full .link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-full .decsription {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.card-full .title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-full .category {
+    color: #9B9B9B;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.card-full .category::before {
+    margin-top: 2px;
+    background-color: #59a66b;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: .3em;
+    margin-bottom: 1px;
+}
+
+.card-full .article-about {
+    width: 600px;
+    height: 100px;
+}
+
+.card-full .article-about .title {
+    margin-bottom: 13px;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 550px;
+}
+
+.card-full .article-about .decsription {
+    margin-left: 5px;
+    width: 560px;
+}

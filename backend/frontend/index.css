@@ -1,0 +1,179 @@
+.about {
+    background-color: #59a66b;
+    padding: 20px;
+    color: white;
+    font-family: "ProximaNova-Light"sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+    top: 0;
+    bottom: 0;
+    writing-mode: vertical-lr;
+    position: fixed;
+    transform: scale(-1);
+    justify-content: end;
+}
+
+.about #premium:hover {
+    padding: 8px;
+    color: #59a66b;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about #premium {
+    color: white;
+    transition: background-color 350ms;
+    text-decoration: none;
+}
+
+.about img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 13px;
+    transform: rotate(-180deg);
+}
+
+.about #first {
+    margin-top: 10px;
+}
+
+.head #logo-img {
+    width: 170px;
+    height: 67px;
+    margin-top: 20px;
+}
+
+.head #logo {
+    width: 170px;
+    height: 68px;
+    margin-left: 110px;
+}
+
+.head #wd {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 105px;
+    right: 130px;
+    opacity: 0.2;
+}
+
+.head .rup-buttons {
+    position: relative;
+    right: 0px;
+    left: -100px;
+    top: -30px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 10px;
+    color: #59a66b;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    transition: background-color 360ms;
+}
+
+.head .rup-buttons:hover {
+    color: white;
+    background-color: #59a66b;
+    border-radius: 5px;
+}
+
+.news-block {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 65px;
+}
+
+.news-block .not-full-1 {
+    display: block;
+}
+
+.news-block .not-full-2 {
+    display: block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.news-block .not-full-3 {
+    display: block;
+    margin-left: 25px;
+}
+
+.categories {
+    position: relative;
+    display: inline-flex;
+    height: 50px;
+    top: 47px;
+    left: -108px;
+}
+
+.categories h5 {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 549;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-variant-caps: all-small-caps;
+    z-index: 3;
+}
+
+.categories>a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+
+.categories #all {
+    margin-top: 17px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.categories #culture {
+    margin-top: 17px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.categories #social {
+    margin-top: 16px;
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+.categories #politic {
+    margin-top: 17px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.categories #sport {
+    margin-top: 18px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.categories #science {
+    margin-top: 17px;
+    width: 20px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.categories #tech {
+    margin-top: 17px;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
