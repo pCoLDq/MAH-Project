@@ -4,10 +4,10 @@ from .models import *
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = '__all__'
+        fields = ('name',)
 
 class ArticleSerializer(serializers.ModelSerializer):
-    category = CategorySerializer(read_only=True)
+    category = serializers.CharField(max_length=1000)
     class Meta:
         model = Article
-        fields = '__all__'
+        exclude = ('id',)

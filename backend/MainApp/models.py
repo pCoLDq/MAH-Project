@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Article(models.Model):
 
-    title = models.CharField(max_length=300)
+    title = models.CharField(max_length=1000)
     preview = models.CharField(max_length=1000)
     full = models.BooleanField(default=None)
     category = models.ForeignKey('Category', on_delete=models.PROTECT)

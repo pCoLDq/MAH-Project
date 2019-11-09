@@ -20,6 +20,6 @@ from MainApp.views import *
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
-    path('categories/', include('MainApp.urls')),
+    path('category/', include('MainApp.urls')),
     path('admin/', admin.site.urls),
 ]
