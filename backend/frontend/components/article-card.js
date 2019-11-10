@@ -16,7 +16,7 @@ customElements.define(
           ${full
                     ? html`
             <div class="card-full" >
-                    <img class="preview-full" src=${preview} />
+                    <img class="preview-full" src="static/${preview}" />
             <div class="article-about"> 
                   <h3 class="title">${title}</h3>
                   <p class="decsription">${description}</p>
@@ -26,7 +26,7 @@ customElements.define(
                     : html`
             <div class="card" >
                 <a href=${link}>
-                    <img class="preview" src=${preview} />
+                    <img class="preview" src="static/${preview}" />
                 </a>
             <div class="article-about"> 
                   <h3 class="title" >${title}</h3>

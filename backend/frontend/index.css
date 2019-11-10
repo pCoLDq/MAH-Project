@@ -70,6 +70,7 @@
     color: #59a66b;
     font-weight: 600;
     font-size: 17px;
+    border-radius: 7px;
     letter-spacing: 0.5px;
     transition: background-color 300ms;
 }
@@ -77,7 +78,6 @@
 .head .rup-buttons:hover {
     color: white;
     background-color: #59a66b;
-    border-radius: 7px;
 }
 
 .news-block {
@@ -99,6 +99,15 @@
 .news-block .not-full-3 {
     display: block;
     margin-left: 30px;
+}
+
+.news-block .block-2,
+.block-4 {
+    margin-top: 30px;
+}
+
+.news-block {
+    margin-top: 50px;
 }
 
 .categories {

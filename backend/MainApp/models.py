@@ -8,7 +8,7 @@ class Article(models.Model):
     full = models.BooleanField(default=None)
     category = models.ForeignKey('Category', on_delete=models.PROTECT)
     link = models.CharField(max_length=10000)
-    desription = models.TextField()
+    description = models.TextField()
 
     def __str__(self):
         return self.title
