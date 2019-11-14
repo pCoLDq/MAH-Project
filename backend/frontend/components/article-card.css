@@ -1,59 +1,6 @@
-.card {
-    margin-top: 18px;
+.card-full {
+    width: 580px;
 }
-
-.link {
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    height: 100%;
-}
-
-.card .preview {
-    width: 280px;
-    height: 145px;
-    transition: all 325ms cubic-bezier(0.4, 0.25, 0.3, 1);
-}
-
-.card .preview:hover {
-    filter: brightness(88%);
-}
-
-.card .title {
-    margin-left: 4px;
-    width: 275px;
-    font-weight: 600;
-    font-size: 14.9px;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    padding: 4px;
-}
-
-.card .category {
-    color: #9B9B9B;
-    font-weight: 600;
-    font-size: 13px;
-    margin-left: 10px;
-    position: relative;
-    margin-top: 15px;
-}
-
-.card .category::before {
-    background-color: #59a66b;
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-right: .3em;
-}
-
-.card .article-about {
-    width: 270px;
-    height: 110px;
-}
-
-/*##########################*/
 
 .card-full .preview-full {
     margin-top: 55px;
@@ -62,16 +9,15 @@
     transition: all 325ms cubic-bezier(0.4, 0.25, 0.3, 1);
 }
 
+.link {
+    text-decoration: none;
+}
+
 .card-full .preview-full:hover {
     filter: brightness(88%);
 }
 
-.card-full .card-full {
-    margin-top: 40px;
-}
-
 .card-full .decsription {
-    text-decoration: none;
     color: black;
     font-size: 15px;
     font-weight: 400;
@@ -79,14 +25,12 @@
 }
 
 .card-full .title {
-    text-decoration: none;
     color: black;
     font-weight: 620;
     font-size: 21.8px;
 }
 
 .card-full .category {
-    text-decoration: none;
     color: black;
     color: #9B9B9B;
     font-weight: 600;
@@ -98,7 +42,6 @@
 
 .card-full .category::before {
     margin-top: 2px;
-    background-color: #59a66b;
     content: '';
     display: inline-block;
     width: 10px;
@@ -106,6 +49,30 @@
     border-radius: 50%;
     margin-right: .3em;
     margin-bottom: 1px;
+}
+
+.card-full .category[data-category='Культура']::before {
+    background-color: #FC5B5E;
+}
+
+.card-full .category[data-category='Общество']::before {
+    background-color: #FDAE55;
+}
+
+.card-full .category[data-category='Политика']::before {
+    background-color: #49BF98;
+}
+
+.card-full .category[data-category='Спорт']::before {
+    background-color: #4A4D77;
+}
+
+.card-full .category[data-category='Наука']::before {
+    background-color: #27B2CD;
+}
+
+.card-full .category[data-category='Технологии']::before {
+    background-color: #282828;
 }
 
 .card-full .article-about {

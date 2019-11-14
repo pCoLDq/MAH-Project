@@ -13,26 +13,14 @@ customElements.define(
             return html`
             <a class="link" href=${link}>
             <link rel="stylesheet" href="static/components/article-card.css" />
-          ${full
-                    ? html`
             <div class="card-full" >
                     <img class="preview-full" src="static/${preview}" />
-            <div class="article-about"> 
+                <div class="article-about"> 
                   <h3 class="title">${title}</h3>
                   <p class="decsription">${description}</p>
-                  <p class="category" >${category}</p>
+                  <p class="category" data-category=${category}>${category}</p>
                 </div>
-            </div>`
-                    : html`
-            <div class="card" >
-                <a href=${link}>
-                    <img class="preview" src="static/${preview}" />
-                </a>
-            <div class="article-about"> 
-                  <h3 class="title" >${title}</h3>
-                  <p class="category" >${category}</p>
-                </div>
-            </div>`}
+            </div>
             </a>
         `;
         }

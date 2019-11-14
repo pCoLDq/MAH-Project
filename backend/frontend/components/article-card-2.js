@@ -18,7 +18,7 @@ customElements.define(
                 </a>
             <div class="article-about"> 
                   <h3 class="title" >${title}</h3>
-                  <p class="category" >${category}</p>
+                  <p class="category" data-category=${category} >${category}</p>
                 </div>
             </div>
         `;

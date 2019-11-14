@@ -3,13 +3,13 @@ import './components/article-card'
 import './components/article-card-2'
 
 var categories = [
-  { category: 'all', text: 'Все', color: '#9B9B9B' },
-  { category: 'culture', text: 'Культура', color: '#FC5B5E' },
-  { category: 'social', text: 'Общество', color: '#FDAE55' },
-  { category: 'politic', text: 'Политика', color: '#49BF98' },
-  { category: 'sport', text: 'Спорт', color: '#4A4D77' },
-  { category: 'science', text: 'Наука', color: '#27B2CD' },
-  { category: 'tech', text: 'Технологии', color: '#282828' },
+  { category: 'all', text: 'Все' },
+  { category: 'culture', text: 'Культура' },
+  { category: 'social', text: 'Общество' },
+  { category: 'politic', text: 'Политика' },
+  { category: 'sport', text: 'Спорт' },
+  { category: 'science', text: 'Наука' },
+  { category: 'tech', text: 'Технологии' },
 ]
 
 const get = async url => {
@@ -76,15 +76,15 @@ class MainPage extends LitElement {
         </div>
         <div class="not-full-1">
           ${this.news['not-full-1'].map(x => html`
-　              <article-card .article=${x}></article-card> `)}
+　              <article-card-2 .article=${x}></article-card-2>`)}
        </div>
        <div class="not-full-2">
           ${this.news['not-full-2'].map(x => html`
-　              <article-card .article=${x}></article-card> `)}
+　              <article-card-2 .article=${x}></article-card-2> `)}
        </div>
        <div class="not-full-3">
           ${this.news['not-full-3'].map(x => html`
-　              <article-card .article=${x}></article-card> `)}
+　              <article-card-2 .article=${x}></article-card-2> `)}
        </div>`
         : html`
         <div class="block-1">

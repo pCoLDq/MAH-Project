@@ -40,13 +40,36 @@
 }
 
 .card .category::before {
-    background-color: #59a66b;
     content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin-right: .3em;
+}
+
+.card .category[data-category='Культура']::before {
+    background-color: #FC5B5E;
+}
+
+.card .category[data-category='Общество']::before {
+    background-color: #FDAE55;
+}
+
+.card .category[data-category='Политика']::before {
+    background-color: #49BF98;
+}
+
+.card .category[data-category='Спорт']::before {
+    background-color: #4A4D77;
+}
+
+.card .category[data-category='Наука']::before {
+    background-color: #27B2CD;
+}
+
+.card .category[data-category='Технологии']::before {
+    background-color: #282828;
 }
 
 .card .article-about {

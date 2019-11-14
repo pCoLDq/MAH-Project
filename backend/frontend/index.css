@@ -82,7 +82,7 @@
 
 .news-block {
     display: flex;
-    margin-left: 160px;
+    margin-left: 150px;
     margin-top: 45px;
 }
 
@@ -93,12 +93,12 @@
 .news-block .not-full-2 {
     display: block;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .news-block .not-full-3 {
     display: block;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .news-block .block-2,
